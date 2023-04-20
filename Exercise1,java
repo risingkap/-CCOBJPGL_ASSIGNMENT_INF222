@@ -1,0 +1,20 @@
+public class Exercise1 {
+
+    static boolean iWillBehave;
+    static boolean iWillGraduate = true;
+
+    public static void main(String[] args) throws Exception {
+
+        //precondition
+            assert iWillBehave == true : "stop pls!!!!!!!!!!!!!";
+            College();
+        //postcondition
+            assert iWillGraduate == true : "nyt po";
+
+    }
+    static void College() {
+        iWillGraduate = false;
+        System.out.println("LAGOT KA KAY JENNIFER");
+      
+    }
+}
